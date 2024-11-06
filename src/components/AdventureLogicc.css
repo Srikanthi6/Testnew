@@ -1,0 +1,60 @@
+body {
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.game-container {
+    position: relative;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure video covers the area */
+}
+  
+  .intro-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
+    z-index: 1;
+  }
+  
+  .start-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .captions-container {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+  }
+  .protection-circle {
+    position: absolute;
+    border: 2px dashed rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    pointer-events: none; /* Prevent mouse events */
+  }
+  
