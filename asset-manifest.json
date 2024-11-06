@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b3ebd13.css",
+    "main.js": "/static/js/main.2d1fc89f.js",
+    "static/js/453.60523827.chunk.js": "/static/js/453.60523827.chunk.js",
+    "static/media/adventure-game.jpg": "/static/media/adventure-game.24284156e7d265636d31.jpg",
+    "static/media/flappy-bird.jpg": "/static/media/flappy-bird.d6b0b07b69cdf5e14be8.jpg",
+    "index.html": "/index.html",
+    "main.0b3ebd13.css.map": "/static/css/main.0b3ebd13.css.map",
+    "main.2d1fc89f.js.map": "/static/js/main.2d1fc89f.js.map",
+    "453.60523827.chunk.js.map": "/static/js/453.60523827.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b3ebd13.css",
+    "static/js/main.2d1fc89f.js"
+  ]
+}
